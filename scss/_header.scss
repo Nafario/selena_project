@@ -1,0 +1,44 @@
+$main-color: #97d2ee;
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2% 2% 2% 2%;
+    .input-box{
+        // margin-top: 9px;
+        outline: none;
+        font-size: .9em;
+        padding: 6px;
+        border: none;
+        opacity: 0;
+        &:focus{
+            border-bottom: 1px solid $main-color;
+        }
+            
+    }
+
+    .fa-search{
+        font-size: 1.5em;
+        cursor: pointer;
+        margin-top: 13px;
+        &:hover{
+            transform: rotateZ(-20deg);
+            transition: all .4s;
+        }
+    }
+    li{
+        margin-top: 13px;
+        display: inline-block;
+        a{
+            font-size: 1em;
+            color: black;
+            font-weight: 700;
+            padding: 10px;
+            border-radius: 3px;
+            &:hover{
+                transition: linear 0.25s;
+                background-color: $main-color;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.catagories{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    h1{
+        font-size: 3.5em;
+        align-self: center;
+        line-height: 770px;
+        &:hover{
+            line-height: 750px;
+            border: 10px solid #97d1eb00;
+            outline: 10px solid #97d1eb;
+            outline-offset: -25px;
+            transition: linear 0.03s;
+        }
+        
+        
+    }
+    .part{
+        width: 25%;
+        height: 770px;
+        background-image: url(/imgs/idea2.jpg);
+    }
+    .part2{
+        width: 25%;
+        height: 770px;
+        background-image: url(/imgs/concept.jpg);
+    }
+    .part3{
+        height: 770px;
+        width: 25%;
+        background-image: url(/imgs/design.jpg);
+    }
+    .part4{
+        height: 770px;
+        width: 25%;
+        background-image: url(/imgs/develop.jpg);
+    }
+}

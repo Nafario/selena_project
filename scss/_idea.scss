@@ -1,0 +1,40 @@
+.cool-idea{
+    display: flex;
+    position: relative;
+    margin-bottom: 240px;
+    .idea-text{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        h1{
+            font-size: 3.5em;
+            color: #bcc0cd;
+            margin-bottom: 40px;
+        }
+        p{
+            font-size: .9em;
+            color:#bcc0cd;
+            line-height: 3;
+        }
+    }
+    .idea-demo{
+        width: 50%;
+        display: flex;
+        img{
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 40%;
+          height: 340px;
+          margin-left: -20px;
+          border: 10px solid #97d2ee;
+          background-color: #e9f3ff;
+        }
+        h1{
+            transform: translateY(30%);
+            font-size: 5.5em;
+            z-index: 1;
+            width: 500px;
+        }
+    }
+}

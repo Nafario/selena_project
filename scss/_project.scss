@@ -1,0 +1,117 @@
+
+.carouselTwo-container {
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+
+.project-title{
+    background-color: white;
+    padding:80px 200px;
+    display: flex;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    color: #97d1eb;
+    transform: translateY(-100%);
+    p{
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    hr{
+        width: 180px;
+    }
+}
+.project-text{
+  top: 40%;
+  transform: translate(30%,20%);
+  margin-left: -50px;
+  h1{
+    font-size: 3em;
+    word-wrap: break-word;
+    width: 500px;
+    margin-bottom: 20px;
+  }
+  p{
+      color: #9ca2b4;
+    width: 500px;
+    line-height: 30px;
+  }
+  button{
+      background-color: white;
+    color: #9ca2b4;
+    font-size: .7em;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    margin-top: 20px;
+  }
+}
+
+.carouselTwo {
+    /* border: 2px solid #416be4; */
+    width: 54.5%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+  }
+.sliderTwo {
+    display: flex;
+    height: 100%;
+    width: 400%;
+  }
+.sliderTwo section {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    transform: translateX(-2%);
+  }
+.leftTwo, .rightTwo {
+    cursor: pointer;
+    float: left;
+    transform: translateY(-550%);
+    padding: 30px;
+    background-color: #80bfdb;
+  }
+.arrowTwo i {
+    font-size: 20px;
+    color: #ffffff;
+  }
+.leftTwo {
+    
+    margin-left: 50%;
+    
+  }
+.rightTwo {
+    margin-left: 50%;
+  }
+.controlTwo ul {
+    list-style: none;
+    display: flex;
+   transform: translateX(-50%);
+   margin-top: -40px;
+  }
+.controlTwo ul li {
+    cursor: pointer;
+    border: 15px solid #80c0db00;
+    outline: 8px solid #97d1eb00;
+    outline-offset: -25px;
+}
+.controlTwo ul li.selectedTwo {
+    border: 16px solid #80c0db00;
+    outline: 12px solid #97d1eb;
+    outline-offset: -22px;
+}
+  
